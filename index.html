@@ -1,0 +1,448 @@
+<!doctype html>
+<html class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="dist.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="bg-dim-900 dark:bg-dim-900">
+    
+    <div class="container mx-auto h-screen flex xl:max-w-[1200px]">
+
+        <!-- left  -->
+        <div class="xl:w-1/5 w-20 h-full flex flex-col xl:pr-4">
+            <!-- logo  -->
+            <a href="" class=" link-active my-2">
+                <!-- <i class='bx bxl-twitter text-4xl'></i> -->
+            <img src="x-social-media-black-icon.png" alt="" class="w-9  ">
+            </a>
+            <!-- nav  -->
+            <nav class="mt-5">
+                <a href="" class=" link-active  mb-8">
+                    <i class='bx bxs-home text-xl' ></i>
+                    <span class="icon">Home</span>
+                </a>
+                <a href="" class=" link  mb-8">
+                <i class='bx bx-exclude text-xl' ></i>
+                    <span class="icon">Explore</span>
+                </a>
+                <a href="" class=" link  mb-8">
+                    <i class='bx bxs-bell text-xl'></i>
+                        <span class="icon">Notifications</span>
+                </a>
+                <a href="" class=" link  mb-8">
+                    <i class='bx bxs-chat text-xl'></i>
+                        <span class="icon">Messages</span>
+                </a>
+                <a href="" class=" link  mb-8">
+                    <i class='bx bxs-bookmarks text-xl' ></i>
+                        <span class="icon">Bookmarks</span>
+                </a>
+                <a href="" class=" link  mb-8">
+                    <i class='bx bx-list-ul text-xl' ></i>
+                        <span class="icon">Lists</span>
+                </a>
+                <a href="" class=" link  mb-8">
+                    <i class='bx bx-body text-xl' ></i>
+                        <span class="icon">Profile</span>
+                </a>
+                <a href="" class=" link  mb-8">
+                    <i class='bx bx-dots-horizontal-rounded text-xl'></i>
+                        <span class="icon">More</span>
+                </a>                      
+            </nav>
+
+            <!-- button  -->
+            <a href="" class="mx-auto w-11 h-11 xl:w-full flex items-center justify-center bg-blue-400
+            rounded-full text-white font-bold">
+            <i class='bx bxs-pencil xl:opacity-0 '></i>
+            <span class="icon xl:ml-0">Tweet</span>
+        </a>
+        <!-- user  -->
+        <div class="w-14 xl:w-full mx-auto mt-auto flex justify-between mb-2 rounded-full p-2
+        cursor-pointer">
+    <img class="w-10 h-10 rounded-full" src="photo_2024-09-28_14-02-05.jpg" alt="">
+
+        <div class="hidden xl:flex flex-col">
+            <h4 class=" text-gray-900 dark:text-white font-bold text-sm">Ag Coding</h4>
+            <p class="text-gray-400 text-sm">abdalmalek@gmail</p>
+        </div>
+        <i class='bx bx-chevron-down text-xs hidden xl:flex items-center xl:ml-4
+        text-gray-800 dark:text-white'></i>
+
+        </div>
+
+
+        </div>
+
+
+
+        <!-- middle  -->
+        <div class="w-full xl:w-1/2 h-screen overflow-y-auto">
+            <!-- steaky header  -->
+            <div style="background-color: #15202b;"  class="flex justify-between items-center border px-4 py-3 sticky top-0 bg-dim-900  border-gray-700 ">
+                <h4 class="dark:text-gray-100 font-bold">Home</h4>
+            <img src="x-social-media-black-icon.png" alt="" class="w-5  ">
+                
+            </div>
+            <!-- tweet box  -->
+            <div class="border pb-3 border-gray-700 ">
+
+                <div class="flex p-4">
+                    <img class="w-10 h-10 rounded-full" src="photo_2024-09-28_14-02-05.jpg" alt="">
+                    <textarea class="p-2 text-white w-full h-16 bg-transparent
+                    focus:outline-none resize-none" placeholder="What's happening?" ></textarea>
+                </div>
+                <div class="flex p-4 w-full">
+                    <a href="" class="text-blue-400 rounded-full p-2">
+                        <i class='bx bx-images'></i>
+                    </a>
+                    <a href="" class="text-blue-400 rounded-full p-2">
+                        <i class='bx bxl-unity'></i>
+                    </a>
+                    <a href="" class="text-blue-400 rounded-full p-2">
+                        <i class='bx bxs-bar-chart-alt-2'></i>
+                    </a>
+                    <a href="" class="text-blue-400 rounded-full p-2">
+                        <i class='bx bx-line-chart'></i>
+                    </a>
+                    <a href="" class="text-blue-400 rounded-full p-2">
+                        <i class='bx bxs-carousel'></i>
+                    </a>
+                    <a href="" class="font-bold bg-blue-400 text-white rounded-full px-6 ml-auto mr-1 flex items-center">
+                        Tweet
+                    </a>
+                </div>
+            </div>
+            <!-- show tweets  -->
+            <div class="text-center py-4 bg-dim-900 border border-gray-700
+            cursor-pointer text-blue-400 text-sm">
+            Show 9 Tweets
+            </div>
+            <!-- tweet  -->
+            <div class="border dark:border-gray-700 cursor-pointer pb-4 ">
+                <div class="flex p-4 pb-0 ">
+                    <img class="h-9 w-9 rounded-full" src="photo_2024-09-28_14-02-05.jpg" alt="">
+                    <p class="ml-2 flex flex-shrink-0 items-center font-medium text-white">
+                        Ag Coding
+                        <span class="ml-1 text-sm leading-5  text-gray-400">
+                            abdalmalek@gmail.com
+                        </span>
+                    </p>
+                </div>
+                <div class="pl-8 xl:pl-16 pr-4">
+                    <p class="w-auto font-medium text-white">
+                        any fool can write code that a computer can understand. good programmers write code that
+                        humans can
+                        understand.<br />
+                        <br />
+                        experience is the name everyone gives to thier
+                        <a href="#" class="text-blue-400">#Mistakes</a>
+                        <br />
+                        <br />
+                        simplicity is the soul of efficiency.
+                    </p>
+                    <img class="  rounded-2xl border border-gray-600 my-3 mr-2 w-full" src="4-bg.jpg" alt="">
+                    <div class="flex items-center w-full justify-between">
+                        <div class="flex items-center text-white text-xs hover:text-blue-400 ">
+                            <i class='bx bx-message-rounded mr-2 text-lg '  ></i>
+                            2.3 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-green-500 ">
+                            <i class='bx bx-share mr-2 text-lg '  ></i>
+                            1.7 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-red-600 ">
+                            <i class='bx bx-heart mr-2 text-lg'  ></i>
+                            12.5 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-blue-400 ">
+                            <i class='bx bx-share bx-flip-horizontal mr-2 text-lg'  ></i>
+                            12.5 K
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="border dark:border-gray-700 cursor-pointer pb-4 ">
+                <div class="flex p-4 pb-0 ">
+                    <img class="h-9 w-9 rounded-full" src="photo_2024-09-28_14-02-12.jpg" alt="">
+                    <p class="ml-2 flex flex-shrink-0 items-center font-medium text-white">
+                        Ag Coding
+                        <span class="ml-1 text-sm leading-5  text-gray-400">
+                            abdalmalek@gmail.com
+                        </span>
+                    </p>
+                </div>
+                <div class="pl-8 xl:pl-16 pr-4">
+                    <p class="w-auto font-medium text-white">
+                        any fool can write code that a computer can understand. good programmers write code that
+                        humans can
+                        understand.<br />
+                        <br />
+                        experience is the name everyone gives to thier
+                        <a href="#" class="text-blue-400">#Mistakes</a>
+                        <br />
+                        <br />
+                        simplicity is the soul of efficiency.
+                    </p>
+                    <img class="  rounded-2xl border border-gray-600 my-3 mr-2 w-full" src="9.jpg" alt="">
+                    <div class="flex items-center w-full justify-between">
+                        <div class="flex items-center text-white text-xs hover:text-blue-400 ">
+                            <i class='bx bx-message-rounded mr-2 text-lg '  ></i>
+                            2.3 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-green-500 ">
+                            <i class='bx bx-share mr-2 text-lg '  ></i>
+                            1.7 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-red-600 ">
+                            <i class='bx bx-heart mr-2 text-lg'  ></i>
+                            12.5 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-blue-400 ">
+                            <i class='bx bx-share bx-flip-horizontal mr-2 text-lg'  ></i>
+                            12.5 K
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="border dark:border-gray-700 cursor-pointer pb-4 ">
+                <div class="flex p-4 pb-0 ">
+                    <img class="h-9 w-9 rounded-full" src="photo_2024-09-28_14-02-15.jpg" alt="">
+                    <p class="ml-2 flex flex-shrink-0 items-center font-medium text-white">
+                        Ag Coding
+                        <span class="ml-1 text-sm leading-5  text-gray-400">
+                            abdalmalek@gmail.com
+                        </span>
+                    </p>
+                </div>
+                <div class="pl-8 xl:pl-16 pr-4">
+                    <p class="w-auto font-medium text-white">
+                        any fool can write code that a computer can understand. good programmers write code that
+                        humans can
+                        understand.<br />
+                        <br />
+                        experience is the name everyone gives to thier
+                        <a href="#" class="text-blue-400">#Mistakes</a>
+                        <br />
+                        <br />
+                        simplicity is the soul of efficiency.
+                    </p>
+                    <img class="  rounded-2xl border border-gray-600 my-3 mr-2 w-full" src="1-bg.jpg" alt="">
+                    <div class="flex items-center w-full justify-between">
+                        <div class="flex items-center text-white text-xs hover:text-blue-400 ">
+                            <i class='bx bx-message-rounded mr-2 text-lg '  ></i>
+                            2.3 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-green-500 ">
+                            <i class='bx bx-share mr-2 text-lg '  ></i>
+                            1.7 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-red-600 ">
+                            <i class='bx bx-heart mr-2 text-lg'  ></i>
+                            12.5 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-blue-400 ">
+                            <i class='bx bx-share bx-flip-horizontal mr-2 text-lg'  ></i>
+                            12.5 K
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="border dark:border-gray-700 cursor-pointer pb-4 ">
+                <div class="flex p-4 pb-0 ">
+                    <img class="h-9 w-9 rounded-full" src="photo_2024-09-28_14-02-05.jpg" alt="">
+                    <p class="ml-2 flex flex-shrink-0 items-center font-medium text-white">
+                        Ag Coding
+                        <span class="ml-1 text-sm leading-5  text-gray-400">
+                            abdalmalek@gmail.com
+                        </span>
+                    </p>
+                </div>
+                <div class="pl-8 xl:pl-16 pr-4">
+                    <p class="w-auto font-medium text-white">
+                        any fool can write code that a computer can understand. good programmers write code that
+                        humans can
+                        understand.<br />
+                        <br />
+                        experience is the name everyone gives to thier
+                        <a href="#" class="text-blue-400">#Mistakes</a>
+                        <br />
+                        <br />
+                        simplicity is the soul of efficiency.
+                    </p>
+                    <img class="  rounded-2xl border border-gray-600 my-3 mr-2 w-full" src="5-bg.webp" alt="">
+                    <div class="flex items-center w-full justify-between">
+                        <div class="flex items-center text-white text-xs hover:text-blue-400 ">
+                            <i class='bx bx-message-rounded mr-2 text-lg '  ></i>
+                            2.3 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-green-500 ">
+                            <i class='bx bx-share mr-2 text-lg '  ></i>
+                            1.7 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-red-600 ">
+                            <i class='bx bx-heart mr-2 text-lg'  ></i>
+                            12.5 K
+                        </div>
+                        <div class="flex items-center text-white text-xs hover:text-blue-400 ">
+                            <i class='bx bx-share bx-flip-horizontal mr-2 text-lg'  ></i>
+                            12.5 K
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- toggler -->
+            <div class="py-2 border border-gray-700 bg-dim-300">
+                <div class="text-center p-6 bg-dim-900 border-b border-t border-gray-700">
+                    <h3 class="text-white text-2xl font-bold mb-2">
+                        Customize Your View
+                    </h3>
+                    <p class="text-gray-500 mb-5 text-sm ">
+                        Manage Your Font Size, Color And Background. These Settings
+                        Affect All The Twitter Account On This Browser. 
+                    </p>
+                    <a href="javascript:void(0)" onclick="document.querySelector('html').classList.toggle('dark')"
+                    class="mx-auto w-11 h-11 xl:w-48 flex justify-center
+                    bg-blue-400 py-3 rounded-full text-white font-bold">
+                        <i class='bx bxs-moon block xl:hidden text-lg'></i>
+                        <span class="hidden xl:block font-bold ">Toggle Dark Mode</span>
+                    </a>
+                </div>
+            </div>
+            <!-- spinner  -->
+            <div class="p-4 border border-gray-200 dark:border-gray-700">
+                <svg class="w-8 h-8 mx-auto animate-spin">
+                    <circle cx="16" cy="16" fill="none" r="14" stroke-width="4" style="stroke: rgb(29, 161, 242);
+                    opacity: 0.2;">
+                    </circle>
+                    <circle cx="16" cy="16" fill="none" r="14" stroke-width="4" style="
+                    stroke: rgb(29, 161, 242);
+                    stroke-dasharray: 80;
+                    stroke-dashoffset: 60;">
+                    </circle>
+                </svg>
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <!-- right  -->
+        <div class="hidden w-1/3 xl:block">
+            <!-- search  -->
+            <div class="relative">
+                <i class='bx bx-search text-gray-400 absolute left-4 top-7 -translate-y-1/2'></i>
+                <input type="text" class="w-full bg-gray-800 border-dim-400 ml-2 mt-2
+                text-gray-100 focus:outline-none font-normal h-9 pl-12 text-sm rounded-full"
+                placeholder="Search Twitter">
+            </div>
+            <div class="bg-gray-800 rounded-sm m-2 ml-4">
+                <h3 class="text-white font-bold p-3 border-b border-gray-500">What's Happening</h3>
+                <div class="p-3 border-b border-gray-500 ">
+                    <h4 class="font-bold text-white ">
+                        #palestine
+                    </h4>
+                    <p class="text-xs text-gray-400">34.5 K Tweets</p>
+                </div>
+                <div class="p-3 border-b border-gray-500 ">
+                    <h4 class="font-bold text-white ">
+                        #Fcbarcelona
+                    </h4>
+                    <p class="text-xs text-gray-400">22.3 K Tweets</p>
+                </div>
+                <div class="p-3 border-b border-gray-500">
+                    <h4 class="font-bold text-white ">
+                        #Cristiano
+                    </h4>
+                    <p class="text-xs text-gray-400">19.9 K Tweets</p>
+                </div>
+                <div class="p-3 border-b border-gray-500 ">
+                    <h4 class="font-bold text-white ">
+                        #UEFA
+                    </h4>
+                    <p class="text-xs text-gray-400">17.5 K Tweets</p>
+                </div>
+                <div class="text-blue-400 p-3 cursor-pointer">Show More</div>
+            </div>
+
+            <!-- who follow  -->
+            <div class="bg-gray-800 rounded-sm m-2 ml-4">
+                <h3 class="text-white font-bold p-3 border-b border-gray-500">Who To Follow</h3>
+                <div class="p-5 border-b border-gray-500 flex justify-between items-center">
+                    <div class="flex">
+                        <img src="photo_2024-09-28_14-02-05.jpg" alt="" class="w-10 h-10 rounded-full">
+                        <div class="ml-2 text-sm">
+                        <h5 class="text-white font-bold">
+                            AbdAlmalekHayani
+                        </h5>
+                        <p class="text-gray-400">abalmalek@gmail</p>
+                        </div>
+                    </div>
+                    <a href="#" class="text-sm font-bold text-blue-400 px-4 py-1 rounded-full border-2
+                    border-blue-400 hover:bg-blue-400 hover:text-white transition-all">Follow</a>
+
+                </div>
+                <div class="p-5 border-b border-gray-500 flex justify-between items-center">
+                    <div class="flex">
+                        <img src="photo_2024-09-28_14-02-05.jpg" alt="" class="w-10 h-10 rounded-full">
+                        <div class="ml-2 text-sm">
+                        <h5 class="text-white font-bold">
+                            AbdAlmalekHayani
+                        </h5>
+                        <p class="text-gray-400">abalmalek@gmail</p>
+                        </div>
+                    </div>
+                    <a href="#" class="text-sm font-bold text-blue-400 px-4 py-1 rounded-full border-2
+                    border-blue-400 hover:bg-blue-400 hover:text-white transition-all">Follow</a>
+                </div>
+
+                <div class="p-5 border-b border-gray-500 ">
+                    <div class="flex animate-pulse">
+                        <div class="rounded-full bg-gray-400 h-11 w-11"></div>
+                        <div class="flex-1 space-y-2 py-1 ml-4">
+                            <div class="h-4 bg-gray-400 rounded w-5/6"></div>
+                            <div class="h-4 bg-gray-400 rounded w-3/4"></div>
+                            <div class="h-4 bg-gray-400 rounded w-4/6"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="text-blue-400 p-3 cursor-pointer">
+                    Show More
+                </div>
+            </div>
+            
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+</html>
